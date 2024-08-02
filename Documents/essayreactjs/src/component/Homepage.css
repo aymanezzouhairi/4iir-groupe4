@@ -1,0 +1,75 @@
+/* Homepage.css */
+.background {
+  background-image: url('../image/image-riva.png');
+  background-size: cover; /* Ajuste la taille de l'image pour couvrir l'élément */
+  background-position: center; /* Centre l'image dans l'élément */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  height: 100vh; /* Hauteur de l'élément (100% de la hauteur de la vue) */
+  width: 100%; /* Largeur de l'élément (100% de la largeur de la vue) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fffcfc; /* Couleur du texte pour contraste avec l'image */
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-decoration: solid;
+}
+div#title{
+  background-color: rgb(87, 147, 199);
+  color:'black';
+}
+
+/* Styles pour la Navbar */
+.navbar {
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center;
+  background-color: #3d3838;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Assure que la navbar est au-dessus des autres éléments */
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(217, 207, 207);
+  margin-right: auto; /* Place le logo à gauche */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end; /* Centre les liens horizontalement */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  text-size-adjust: 10px;
+  color: #fffcfc;
+}
+div#footer{
+
+color: #ffffffc3;
+font-size: 10px;
+font-weight: bold;
+
+}
+div#footer p{
+
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: solid;  
+  
+}
